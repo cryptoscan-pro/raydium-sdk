@@ -1,4 +1,4 @@
-# @cryptoscan/pumpfun-sdk
+# @cryptoscan/raydium-sdk
 
 The fastest and easiest way to trade on pumpfun
 

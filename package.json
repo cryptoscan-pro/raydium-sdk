@@ -19,6 +19,17 @@
     "@cryptoscan/swap-sdk": "latest",
     "@solana/web3.js": "1.93.1"
   },
+  "keywords": [
+    "solana",
+    "cryptocurrency",
+    "blockchain",
+    "raydium",
+    "api",
+    "sdk",
+    "crypto",
+    "wallet",
+    "transaction"
+  ],
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^13.0.0",
     "@semantic-release/git": "^10.0.1",

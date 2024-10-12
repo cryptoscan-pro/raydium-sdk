@@ -5,6 +5,17 @@
   "version": "1.0.1",
   "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
+  "keywords": [
+    "solana",
+    "cryptocurrency",
+    "blockchain",
+    "raydium",
+    "api",
+    "sdk",
+    "crypto",
+    "wallet",
+    "transaction"
+  ],
   "scripts": {
     "test": "vitest",
     "build:watch": "tsc -w -p tsconfig.esm.json",
@@ -19,17 +30,6 @@
     "@cryptoscan/swap-sdk": "latest",
     "@solana/web3.js": "1.93.1"
   },
-  "keywords": [
-    "solana",
-    "cryptocurrency",
-    "blockchain",
-    "raydium",
-    "api",
-    "sdk",
-    "crypto",
-    "wallet",
-    "transaction"
-  ],
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^13.0.0",
     "@semantic-release/git": "^10.0.1",

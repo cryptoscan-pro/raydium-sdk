@@ -1,11 +1,11 @@
 # @cryptoscan/raydium-sdk
 
-The fastest and easiest way to trade on Raydium
+The fastest and easiest way to trade on Raydium.
 
-- Get rate/price of coin in USD/Solana
+- Get rate/price of a coin in USD/Solana
 - Buy/Sell coin
 - Transfer coins to another wallet
-- Transfer solana to another wallet
+- Transfer Solana to another wallet
 
 [[GitHub]](https://github.com/cryptoscan-pro/raydium-sdk)
 [[Our website]](https://cryptoscan.pro/)
@@ -20,7 +20,7 @@ Let's see our [Project example](https://github.com/cryptoscan-pro/raydium-sdk/tr
 npm install @cryptoscan/raydium-sdk
 ```
 
-## Buy Example
+## Buy Example with RaydiumApi
 
 Request
 
@@ -52,7 +52,7 @@ api.buy({
 })
 ```
 
-## Sell Example
+## Sell Example with RaydiumApi
 
 Request
 
@@ -84,7 +84,7 @@ api.sell({
 })
 ```
 
-## Transfer Solana Example
+## Transfer Solana Example with RaydiumApi
 
 Request
 
@@ -112,7 +112,7 @@ api.transfer({
 })
 ```
 
-## Transfer Coins Example
+## Transfer Coins Example with RaydiumApi
 
 Request
 

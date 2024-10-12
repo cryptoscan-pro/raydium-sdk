@@ -2,7 +2,7 @@
 
 ## Features
 
-- Listen transactions
+- Listen to transactions
 
 To install dependencies:
 

@@ -42,7 +42,7 @@ Response
 
 ```javascript
 import { getWallet } from '@cryptoscan/solana-wallet-sdk';
-import { RaydiumApi } from '@cryptoscan/pumpfun-sdk';
+import { RaydiumApi } from './lib/RaydiumApi.js';
 
 const wallet = getWallet(process.env.SECRET_KEY!);
 const coinAddress = 'HJAoYbnsf16Z8ftk3SsuShKLQQgzmxAPu41RTpjjpump';
@@ -74,12 +74,12 @@ Response
 
 ```javascript
 import { getWallet } from '@cryptoscan/solana-wallet-sdk';
-import { PumpApi } from '@cryptoscan/pumpfun-sdk';
+import { RaydiumApi } from './lib/RaydiumApi.js';
 
 const wallet = getWallet(process.env.SECRET_KEY!);
 const coinAddress = 'HJAoYbnsf16Z8ftk3SsuShKLQQgzmxAPu41RTpjjpump';
 const sol = undefined; // Sell all
-const api = new PumpApi();
+const api = new RaydiumApi();
 
 api.sell({
   wallet,
@@ -108,7 +108,7 @@ import { PumpApi } from '@cryptoscan/pumpfun-sdk';
 
 const wallet = getWallet(process.env.SECRET_KEY!);
 const sol = undefined; // All amount
-const api = new PumpApi();
+const api = new RaydiumApi();
 
 api.transfer({
   wallet,

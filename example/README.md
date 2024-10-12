@@ -1,4 +1,4 @@
-# @cryptoscan/pumpfun-sdk-example
+# @cryptoscan/raydium-sdk-example
 
 ## Features
 
@@ -16,4 +16,4 @@ To run:
 npm start
 ```
 
-This project was created using `bun init` in bun v1.1.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+This project was created using `bun init` in bun v1.1.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime. The example demonstrates how to use the `RaydiumApi` for various operations.
